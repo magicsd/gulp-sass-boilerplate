@@ -1,0 +1,15 @@
+@import 'colors';
+
+body {
+  background: $blue;
+
+  h1 {
+    font-family: sans-serif;
+    color: white;
+
+    &:hover {
+      background: red;
+      text-decoration: underline;
+    }
+  }
+}
